@@ -28,18 +28,18 @@ You can use docker-compose to connect this docker with a Mongo Docker. The docke
 
 version: "2"
 services:
-  mongo:
+mongo:
     image: mongo:latest
     container_name: mongo
     ports:
-      - "27017:27017"
+    - "27017:27017"
 
   demo-docker:
-     image: demo-docker:latest
-     container_name: demo-docker
+  image: demo-docker:latest
+  container_name: demo-docker
      ports:
-      - "8090:8090"
+     - "8090:8090"
      depends_on:
-      - mongo
-
-You can use the endpoints but the difference is that you are connecting to the Docker-compose
+     - mongo
+     
+You can use the endpoints, but the difference is that you are connecting to the Docker-compose.
