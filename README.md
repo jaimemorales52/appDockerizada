@@ -33,8 +33,6 @@ services:
     container_name: mongo
     ports:
       - "27017:27017"
-#    volumes_from:
-#      - container:mongoVolume
 
   demo-docker:
      image: demo-docker:latest
