@@ -1,0 +1,32 @@
+keystore:
+  password: password
+
+app:
+   name: 'appDockerizada'
+   version: '0.0.1'
+
+spring:
+   application:
+      name: 'appDockerizada'
+
+springfox:
+   paths:
+      pathMapping: /
+   documentation:
+      swagger:
+         v2:
+            path: /swagger.json
+
+swagger2raml:
+   swagger:
+      path: /swagger.json
+   root:
+      path: /
+
+logging:
+    level:
+        org:
+            springframework: INFO
+        com:
+            bbva:
+                secarq: DEBUG

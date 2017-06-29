@@ -1,0 +1,8 @@
+/home/gt-innovation/workspace/appDockerizada/src/main/java/com/demo/docker/controller/DemoController.java
+/home/gt-innovation/workspace/appDockerizada/src/main/java/com/demo/docker/dao/impl/DemoDaoImpl.java
+/home/gt-innovation/workspace/appDockerizada/src/main/java/com/demo/docker/model/DemoModel.java
+/home/gt-innovation/workspace/appDockerizada/src/main/java/com/demo/docker/AppDockerizadaApplication.java
+/home/gt-innovation/workspace/appDockerizada/src/main/java/com/demo/docker/service/DemoService.java
+/home/gt-innovation/workspace/appDockerizada/src/main/java/com/demo/docker/dao/DemoDao.java
+/home/gt-innovation/workspace/appDockerizada/src/main/java/com/demo/docker/config/SpringMongoConfig.java
+/home/gt-innovation/workspace/appDockerizada/src/main/java/com/demo/docker/service/impl/DemoServiceImpl.java

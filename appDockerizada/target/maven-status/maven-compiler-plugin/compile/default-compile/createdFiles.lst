@@ -1,0 +1,8 @@
+com/demo/docker/dao/impl/DemoDaoImpl.class
+com/demo/docker/service/impl/DemoServiceImpl.class
+com/demo/docker/dao/DemoDao.class
+com/demo/docker/model/DemoModel.class
+com/demo/docker/service/DemoService.class
+com/demo/docker/controller/DemoController.class
+com/demo/docker/config/SpringMongoConfig.class
+com/demo/docker/AppDockerizadaApplication.class
