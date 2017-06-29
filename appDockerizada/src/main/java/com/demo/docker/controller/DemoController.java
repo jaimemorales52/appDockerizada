@@ -2,6 +2,8 @@ package com.demo.docker.controller;
 
 import java.util.List;
 
+import javax.validation.Valid;
+
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -32,7 +34,7 @@ public class DemoController {
 
 	@RequestMapping(method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE, consumes = MediaType.APPLICATION_JSON_VALUE, value = "/generateChange")
 	public @ResponseBody @ResponseStatus(code = HttpStatus.OK) ResponseEntity<DemoModel> generateChange(
-			@RequestBody DemoModel demoModel) {
+			@RequestBody @Valid DemoModel demoModel) {
 
 		log.debug("generateChange - The generateChange method has started ");
 
