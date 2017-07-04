@@ -55,6 +55,13 @@
 			<version>2.6.1</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/com.orbitz.consul/consul-client -->
+		<dependency>
+			<groupId>com.orbitz.consul</groupId>
+			<artifactId>consul-client</artifactId>
+			<version>0.16.1</version>
+		</dependency>
+
 		<!-- <dependency> -->
 		<!-- <groupId>org.projectlombok</groupId> -->
 		<!-- <artifactId>lombok</artifactId> -->
