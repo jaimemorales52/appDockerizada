@@ -11,9 +11,9 @@ Windows -> https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
 
 There are three different endpoints: 
 
-localhost:8090/healthCheck -> it checks if the application has runned correctly.
+localhost:8090/healthCheck -> it checks if the application has run correctly.
 
-localhost:8090/generateChange -> it changes a text to uppercase, it a simple POST method, the important of this project is that you can use Swagger, Spring Boot and generate a Docker.
+localhost:8090/generateChange -> it changes a text to uppercase, it is a simple POST method, the importance of this project is that you can use Swagger, Spring Boot and generate a Docker image.
 Example: RequestBody {"text":"JAIME"}. ResponseBody {"text":"IÑIGO", "change":"jaime"}
 
 localhost:8090/getAllChanges -> it shows all the changes that the application has done.
@@ -26,6 +26,7 @@ If you want to generate the Docker Image of this application you should change t
 
 You can use docker-compose to connect this docker with a Mongo Docker. The docker-compose should be this one: 
 
+```
 version: "2"
 services:
 mongo:
@@ -41,5 +42,6 @@ mongo:
      - "8090:8090"
      depends_on:
      - mongo
+```
      
 You can use the endpoints, but the difference is that you are connecting to the Docker-compose.
